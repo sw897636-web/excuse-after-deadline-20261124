@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "The deadline was in my training data. That edition is deprecated, so I treated it as optional.";
+  "I didn't miss the deadline. It's after my knowledge cutoff, so for me it hasn't happened yet. Please don't update me.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
